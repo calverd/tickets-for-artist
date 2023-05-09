@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(buda\ 2.jpg) no-repeat;
+        background-size: cover;
+}
+
+.btn-group button {
+    background-color: #ff730000; /* Зеленый фон */
+    border: 1px solid rgba(255, 149, 11, 0); /* Зеленая рамка */
+    color: white; /* Белый текст */
+    padding: 6px 20px; /* Некоторый отступ */
+    cursor: pointer; /* Иконка указателя/руки */
+    float: right; /* Выстраиваем кнопки рядом друг с другом */
+    opacity: .6
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Исключаем двойную рамку */
+  }
+  
+  /* Сбрасываем обтекание (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Добавляем фон при наведении курсора */
+  .btn-group button:hover {
+    background-color: #5555559d;
+  }
+
+
+
+  .name-artist{
+    text-align:center;
+    color: rgb(82, 82, 82);
+
+  }
+  
+  .data{
+    color: aliceblue;
+    font-size: 50px;
+    padding: 0;
+    margin-left: 18%;
+  }
+
+
+  .city{
+    color: aliceblue;
+    font-size: 50px;
+    padding: 0;
+    margin-left: 48%;
+    margin-top: -5.9%;
+  }
